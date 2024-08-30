@@ -1,0 +1,26 @@
+.projeto_menu, .projeto_menu1, .projeto_menu2, .projeto_menu3{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    background-color: beige;
+    color: blueviolet;
+    font-size: 2em;
+    padding: 30px 10px;
+}
+
+.projeto_menu1{
+    background-color: rgb(147, 233, 255);
+    justify-content: space-around;
+}
+
+.projeto_menu2{
+    background-color: rgb(255, 233, 130);
+    justify-content: end;
+}
+
+.projeto_menu3{
+    background-color: rgb(140, 233, 130);
+    justify-content: space-evenly;
+}
+
